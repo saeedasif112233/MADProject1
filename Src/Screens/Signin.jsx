@@ -5,9 +5,9 @@ export default function Signin({ navigation }) {
   return (
     <View style={styles.container}>
       <Button
-        title="Go To Home Screen"
+        title="Go To Signup Screen"
         onPress={() => {
-          navigation.navigate("Home");
+          navigation.navigate("Signup");
         }}
       />
     </View>

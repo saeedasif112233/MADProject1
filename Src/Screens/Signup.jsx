@@ -5,9 +5,9 @@ export default function Signup({ navigation }) {
   return (
     <View style={styles.container}>
       <Button
-        title="Go To Signin Screen"
+        title="Go To Welcome Screen"
         onPress={() => {
-          navigation.navigate("Signin");
+          navigation.navigate("Welcome");
         }}
       />
     </View>
